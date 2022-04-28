@@ -1,25 +1,25 @@
 <nav class="flex items-center justify-end flex-1 hidden w-full h-full space-x-10 md:flex">
-    <a href="/#welcome" class="text-base font-medium leading-6 text-gray-800 transition duration-150 ease-in-out hover:text-gray-600 focus:outline-none focus:text-wave-600">
+    <a href="/#welcome" class="text-base font-medium leading-6 text-gray-800 transition duration-150 ease-in-out hover:text-gray-600 focus:outline-none focus:text-gray-600">
         Welcome
     </a>
 
-    <a href="/#techs" class="text-base font-medium leading-6 text-gray-800 transition duration-150 ease-in-out hover:text-gray-600 focus:outline-none focus:text-wave-600">
+    <a href="/#techs" class="text-base font-medium leading-6 text-gray-800 transition duration-150 ease-in-out hover:text-gray-600 focus:outline-none focus:text-gray-600">
         Techs
     </a>
 
-    <a href="/#features" class="text-base font-medium leading-6 text-gray-800 transition duration-150 ease-in-out hover:text-gray-600 focus:outline-none focus:text-wave-600">
+    <a href="/#features" class="text-base font-medium leading-6 text-gray-800 transition duration-150 ease-in-out hover:text-gray-600 focus:outline-none focus:text-gray-600">
         Features
     </a>
 
-    <a href="/#team" class="text-base font-medium leading-6 text-gray-800 transition duration-150 ease-in-out hover:text-gray-600 focus:outline-none focus:text-wave-600">
+    <a href="/#team" class="text-base font-medium leading-6 text-gray-800 transition duration-150 ease-in-out hover:text-gray-600 focus:outline-none focus:text-gray-600">
         Team
     </a>
 
-    <a href="/#pricing" class="text-base font-medium leading-6 text-gray-800 transition duration-150 ease-in-out hover:text-gray-600 focus:outline-none focus:text-wave-600">
+    <a href="/#pricing" class="text-base font-medium leading-6 text-gray-800 transition duration-150 ease-in-out hover:text-gray-600 focus:outline-none focus:text-gray-600">
         Plans
     </a>
 
-    <a href="{{ route('wave.blog') }}" class="text-base font-medium leading-6 text-gray-800 transition duration-150 ease-in-out hover:text-gray-600 focus:outline-none focus:text-wave-600">
+    <a href="{{ route('wave.blog') }}" class="text-base font-medium leading-6 text-gray-800 transition duration-150 ease-in-out hover:text-gray-600 focus:outline-none focus:text-gray-600">
         Blog
     </a>
 
