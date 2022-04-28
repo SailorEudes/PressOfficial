@@ -3,10 +3,8 @@
         <div class="bg-white divide-y-2 shadow-xs divide-gray-50">
             <div class="pt-6 pb-6 space-y-6">
                 <div class="flex items-center justify-between px-8 mt-1">
-                    <div>
-                        <h1 class="text-3xl sm:text-4xl lg:text-5xl font-black drop-shadow-md uppercase text-center">
-                            <span class="bg-clip-text bg-gradient-to-r from-yellow-400 via-red-400 to-purple-500 text-transparent pr-2">Foxpress</span>
-                        </h1>
+                    <div class="pl-10">
+                        <img src="./fox/img/foxlogobeta.svg" width="50">
                     </div>
                     <div class="-mr-2">
                         <button @click="mobileMenuOpen = false" type="button" class="inline-flex items-center justify-center p-2 text-gray-400 transition duration-150 ease-in-out rounded-md hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500">

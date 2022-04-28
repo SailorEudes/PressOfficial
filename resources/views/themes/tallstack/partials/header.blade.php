@@ -5,13 +5,13 @@
                 <!-- data-replace='{ "translate-y-12": "translate-y-0", "scale-110": "scale-100", "opacity-0": "opacity-100" }' -->
                 <a href="{{ route('wave.home') }}" class="flex items-center justify-center space-x-3 transition-all duration-1000 ease-out transform text-gray-500">
                     @if(Voyager::image(theme('logo')))
-                    <h1 class="text-3xl sm:text-4xl lg:text-5xl font-black drop-shadow-md uppercase text-center">
-                        <span class="bg-clip-text bg-gradient-to-r from-yellow-400 via-red-400 to-purple-500 text-transparent pr-2">FP</span>
-                    </h1>
+                    <div>
+                        <img src="./fox/img/foxlogobeta.svg" width="50">
+                    </div>
                     @else
-                    <h1 class="text-3xl sm:text-4xl lg:text-5xl font-black drop-shadow-md uppercase text-center">
-                        <span class="bg-clip-text bg-gradient-to-r from-yellow-400 via-red-400 to-purple-500 text-transparent pr-2">FP</span>
-                    </h1>
+                    <div>
+                        <img src="./fox/img/foxlogobeta.svg" width="50">
+                    </div>
                     @endif
                 </a>
             </div>
