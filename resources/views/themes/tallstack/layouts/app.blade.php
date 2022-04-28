@@ -15,7 +15,23 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="url" content="{{ url('/') }}">
 
-    <link rel="icon" href="./fox/favicon.svg" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="57x57" href="./fox/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./fox/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./fox/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./fox/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./fox/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./fox/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./fox/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./fox/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./fox/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="./fox/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./fox/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./fox/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./fox/favicons/favicon-16x16.png">
+    <link rel="manifest" href="./fox/favicons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./fox/favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 
     {{-- Social Share Open Graph Meta Tags --}}
     @if(isset($seo->title) && isset($seo->description) && isset($seo->image))
@@ -54,9 +70,10 @@
             .br-responsive {
                 padding-bottom: 20px;
             }
+
             .text-responsive {
-                text-align:center;
-                width:100%
+                text-align: center;
+                width: 100%
             }
         }
     </style>
