@@ -25,8 +25,8 @@
 
     <div class="w-1 h-5 mx-10 border-r border-gray-300"></div>
     <span class="inline-flex rounded-md shadow-sm">
-        <a href="{{ route('register') }}" class="inline-flex items-center justify-center px-4 py-2 text-base font-medium leading-6 text-white whitespace-no-wrap transition duration-150 ease-in-out border border-transparent rounded-md bg-gray-700 hover:bg-gray-600 focus:outline-none focus:border-gray-700 focus:shadow-outline-wave active:bg-gray-700">
-            {{ __('messages.Menus.signUp') }}
+        <a href="{{ route('login') }}" class="inline-flex items-center justify-center px-4 py-2 text-base font-medium leading-6 text-white whitespace-no-wrap transition duration-150 ease-in-out border border-transparent rounded-md bg-gray-700 hover:bg-gray-600 focus:outline-none focus:border-gray-700 focus:shadow-outline-wave active:bg-gray-700">
+            {{ __('messages.Menus.signIn') }}
         </a>
     </span>
 
