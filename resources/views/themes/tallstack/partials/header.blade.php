@@ -6,11 +6,15 @@
                 <a href="{{ route('wave.home') }}" class="flex items-center justify-center space-x-3 transition-all duration-1000 ease-out transform text-gray-500">
                     @if(Voyager::image(theme('logo')))
                     <div>
-                        <img src="./fox/img/foxlogobeta.png" width="50">
+                        <h1 class="text-2xl sm:text-3xl lg:text-4xl font-black drop-shadow-md uppercase text-center">
+                            <span class="bg-clip-text bg-gradient-to-r from-yellow-400 via-red-400 to-purple-500 text-transparent pr-2">FP</span>
+                        </h1>
                     </div>
                     @else
                     <div>
-                        <img src="./fox/img/foxlogobeta.png" width="50">
+                        <h1 class="text-2xl sm:text-3xl lg:text-4xl font-black drop-shadow-md uppercase text-center">
+                            <span class="bg-clip-text bg-gradient-to-r from-yellow-400 via-red-400 to-purple-500 text-transparent pr-2">FP</span>
+                        </h1>
                     </div>
                     @endif
                 </a>
