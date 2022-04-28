@@ -29,4 +29,15 @@ return [
         'allAnnouncements'       => 'Toutes les annonces',
         'announcements'       => 'Annonces',
     ],
+
+    'Auth' => [
+        'resetPassword'       => 'Réinitialiser le mot de passe',
+        'orReturn'       => 'ou, revenir sur',
+        'loginPage'       => 'la page de connexion',
+        'emailAddress'       => 'Adresse e-mail',
+        'sendPassword'       => 'Envoyer le lien de réinitialisation du mot de passe',
+        'setupPassword'       => 'Configurer votre nouveau mot de passe',
+        'password'       => 'Mot de passe',
+        'confirmPassword'       => 'Confirmer le mot de passe',
+    ],
 ];

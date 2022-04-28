@@ -29,4 +29,16 @@ return [
         'allAnnouncements'       => 'All Announcements',
         'announcements'       => 'Announcements',
     ],
+
+    'Auth' => [
+        'resetPassword'       => 'Reset Password',
+        'orReturn'       => 'or, return back to',
+        'loginPage'       => 'the login page',
+        'emailAddress'       => 'Email Address',
+        'sendPassword'       => 'Send Password Reset Link',
+        'setupPassword'       => 'Setup Your New Password',
+        'password'       => 'Password',
+        'confirmPassword'       => 'Confirm Password',
+    ],
 ];
+
