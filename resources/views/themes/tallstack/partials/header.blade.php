@@ -6,11 +6,11 @@
                 <a href="{{ route('wave.home') }}" class="flex items-center justify-center space-x-3 transition-all duration-1000 ease-out transform text-gray-500">
                     @if(Voyager::image(theme('logo')))
                     <div>
-                        <img src="./fox/img/foxlogobeta.svg" width="50">
+                        <img src="./fox/img/foxlogobeta.png" width="50">
                     </div>
                     @else
                     <div>
-                        <img src="./fox/img/foxlogobeta.svg" width="50">
+                        <img src="./fox/img/foxlogobeta.png" width="50">
                     </div>
                     @endif
                 </a>

@@ -1,9 +1,7 @@
 <footer class="@if(Request::is('/')){{ 'bg-white' }}@else{{ 'bg-gray-50' }}@endif">
     <div class="px-8 pt-16 mx-auto lg:px-12 xl:px-16 max-w-7xl">
         <div class="flex flex-wrap items-start justify-between pb-20">
-            <a href="#_" class="flex items-center w-auto text-lg font-bold md:w-1/6"><svg viewBox="0 0 39 15" xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 mr-1 text-black fill-current">
-                    <path d="M11.252 1.152C4.184 2.526.454 6.918.061 14.329c1.963-4.049 4.798-5.975 8.503-5.778 2.115.112 3.84 1.295 5.75 2.603 3.11 2.133 6.712 4.601 13.281 3.324 7.068-1.374 10.798-5.766 11.191-13.177-1.963 4.049-4.798 5.975-8.503 5.779-2.115-.113-3.84-1.296-5.75-2.604-3.11-2.133-6.712-4.601-13.281-3.324z" fill-rule="evenodd"></path>
-                </svg> <span class="ml-1">foxpress.</span></a>
+            <a href="#_" class="flex items-center w-auto text-lg font-bold md:w-1/6"> <span class="ml-1"><img src="./fox/img/foxlogobeta.png" width="50"></span></a>
             <div class="grid w-full grid-cols-2 mt-20 sm:grid-cols-4 gap-y-16 lg:gap-x-8 md:w-5/6 md:mt-0 md:pr-6">
                 @if(Route::is('wave.home') )
                 <div class="md:justify-self-end"><a href="#welcome" class="font-semibold text-black">
