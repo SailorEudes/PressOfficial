@@ -24,5 +24,10 @@ Route::get('/show-cgv', function () {
 	return view('livewire.show-mentions');
 });
 
+Route::get('locale/{locale}', function ($locale){
+    Session::put('locale', $locale);
+    return redirect()->back();
+});
+
 // Include Wave Routes
 Wave::routes();
