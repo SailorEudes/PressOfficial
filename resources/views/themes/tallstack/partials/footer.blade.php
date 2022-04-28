@@ -1,7 +1,15 @@
 <footer class="@if(Request::is('/')){{ 'bg-white' }}@else{{ 'bg-gray-50' }}@endif">
     <div class="px-8 pt-16 mx-auto lg:px-12 xl:px-16 max-w-7xl">
         <div class="flex flex-wrap items-start justify-between pb-20">
-            <a href="#_" class="flex items-center w-auto text-lg font-bold md:w-1/6"> <span class="ml-1"><img src="{{ env('APP_URL') }}/fox/img/foxlogobeta.png" width="50"></span></a>
+
+            <a href="#_" class="flex items-center w-auto text-lg font-bold md:w-1/6">
+                <span class="ml-1">
+                    <h1 class="text-1xl sm:text-2xl lg:text-3xl font-black drop-shadow-md uppercase text-center">
+                        <span class="bg-clip-text bg-gradient-to-r from-yellow-400 via-red-400 to-purple-500 text-transparent pr-2">Foxpress</span>
+                    </h1>
+                </span>
+            </a>
+
             <div class="grid w-full grid-cols-2 mt-20 sm:grid-cols-4 gap-y-16 lg:gap-x-8 md:w-5/6 md:mt-0 md:pr-6">
                 @if(Route::is('wave.home') )
                 <div class="md:justify-self-end"><a href="{{ env('APP_URL') }}/#welcome" class="font-semibold text-black">
