@@ -3,7 +3,7 @@
         <div class="flex items-center justify-between h-24 border-b-2 border-gray-100 md:justify-start md:space-x-6">
             <div class="inline-flex">
                 <!-- data-replace='{ "translate-y-12": "translate-y-0", "scale-110": "scale-100", "opacity-0": "opacity-100" }' -->
-                <a href="{{ route('wave.home') }}" class="flex items-center justify-center space-x-3 transition-all duration-1000 ease-out transform text-wave-500">
+                <a href="{{ route('wave.home') }}" class="flex items-center justify-center space-x-3 transition-all duration-1000 ease-out transform text-gray-500">
                     @if(Voyager::image(theme('logo')))
                     <h1 class="text-3xl sm:text-4xl lg:text-5xl font-black drop-shadow-md uppercase text-center">
                         <span class="bg-clip-text bg-gradient-to-r from-yellow-400 via-red-400 to-purple-500 text-transparent pr-2">FP</span>

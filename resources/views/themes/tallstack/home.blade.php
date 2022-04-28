@@ -296,14 +296,14 @@
 
     <div class="relative z-20 flex flex-col items-start justify-start px-8 mx-auto sm:items-center max-w-7xl xl:px-5">
         <h2 class="text-4xl font-medium leading-9 text-white">Awesome Features</h2>
-        <p class="mt-4 leading-6 sm:text-center text-wave-200">Wave has some cool features to help you rapidly build your Software as a Service.<br class="hidden md:block"> Here are a few awesome features you're going to love!</p>
+        <p class="mt-4 leading-6 sm:text-center text-gray-200">Wave has some cool features to help you rapidly build your Software as a Service.<br class="hidden md:block"> Here are a few awesome features you're going to love!</p>
 
         <div class="grid mt-16 gap-y-10 sm:grid-cols-2 sm:gap-x-8 md:gap-x-12 lg:grid-cols-3 xl:grid-cols-4 lg:gap-20">
             @foreach(config('features') as $feature)
             <div>
                 <img src="{{ $feature->image }}" class="w-16 rounded sm:mx-auto">
-                <h3 class="mt-6 text-sm font-semibold leading-6 sm:text-center text-wave-100">{{ $feature->title }}</h3>
-                <p class="mt-2 text-sm leading-5 sm:text-center text-wave-200">{{ $feature->description }}</p>
+                <h3 class="mt-6 text-sm font-semibold leading-6 sm:text-center text-gray-100">{{ $feature->title }}</h3>
+                <p class="mt-2 text-sm leading-5 sm:text-center text-gray-200">{{ $feature->description }}</p>
             </div>
             @endforeach
         </div>
@@ -333,7 +333,7 @@
         <div class="max-w-6xl px-10 pb-20 mx-auto bg-gray-100">
             <div class="flex flex-col items-center lg:flex-row">
                 <div class="flex flex-col justify-center w-full h-full mb-10 lg:pr-8 sm:w-4/5 md:items-center lg:mb-0 lg:items-start md:w-3/5 lg:w-1/2">
-                    <p class="mb-2 text-base font-medium tracking-tight uppercase text-wave-500">Our customers love our product</p>
+                    <p class="mb-2 text-base font-medium tracking-tight uppercase text-gray-500">Our customers love our product</p>
                     <h2 class="text-4xl font-extrabold leading-10 tracking-tight text-gray-900 sm:leading-none lg:text-5xl xl:text-6xl">
                         Testimonials</h2>
                     <p class="pr-5 my-6 text-lg text-gray-600 md:text-center lg:text-left">This is an example section of where you will add your testimonials for your Software as a Service.</p>
@@ -344,7 +344,7 @@
                     <blockquote class="flex flex-row-reverse items-center justify-between w-full col-span-1 p-6 bg-white rounded-lg shadow sm:flex-row">
                         <div class="flex flex-col pl-5 sm:pr-8">
                             <div class="relative sm:pl-12">
-                                <svg class="absolute left-0 hidden w-10 h-10 fill-current sm:block text-wave-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 125">
+                                <svg class="absolute left-0 hidden w-10 h-10 fill-current sm:block text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 125">
                                     <path d="M30.7 42c0 6.1 12.6 7 12.6 22 0 11-7.9 19.2-18.9 19.2C12.7 83.1 5 72.6 5 61.5c0-19.2 18-44.6 29.2-44.6 2.8 0 7.9 2 7.9 5.4S30.7 31.6 30.7 42zM82.4 42c0 6.1 12.6 7 12.6 22 0 11-7.9 19.2-18.9 19.2-11.8 0-19.5-10.5-19.5-21.6 0-19.2 18-44.6 29.2-44.6 2.8 0 7.9 2 7.9 5.4S82.4 31.6 82.4 42z" />
                                 </svg>
                                 <p class="mt-2 text-base text-gray-600">Wave allowed me to build the Software as a Service of my dreams!
@@ -359,7 +359,7 @@
                     <blockquote class="flex flex-row-reverse items-center justify-between w-full col-span-1 p-6 my-5 bg-white rounded-lg shadow sm:flex-row">
                         <div class="flex flex-col pl-5 sm:pr-10">
                             <div class="relative sm:pl-12">
-                                <svg class="absolute left-0 hidden w-10 h-10 fill-current sm:block text-wave-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 125">
+                                <svg class="absolute left-0 hidden w-10 h-10 fill-current sm:block text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 125">
                                     <path d="M30.7 42c0 6.1 12.6 7 12.6 22 0 11-7.9 19.2-18.9 19.2C12.7 83.1 5 72.6 5 61.5c0-19.2 18-44.6 29.2-44.6 2.8 0 7.9 2 7.9 5.4S30.7 31.6 30.7 42zM82.4 42c0 6.1 12.6 7 12.6 22 0 11-7.9 19.2-18.9 19.2-11.8 0-19.5-10.5-19.5-21.6 0-19.2 18-44.6 29.2-44.6 2.8 0 7.9 2 7.9 5.4S82.4 31.6 82.4 42z" />
                                 </svg>
                                 <p class="mt-2 text-base text-gray-600">Wave saved us hundreds of development hours. Creating a Software as a Service is now easier than ever with Wave.</p>
@@ -372,7 +372,7 @@
                     <blockquote class="flex flex-row-reverse items-center justify-between w-full col-span-1 p-6 bg-white rounded-lg shadow sm:flex-row">
                         <div class="flex flex-col pl-5 sm:pr-10">
                             <div class="relative sm:pl-12">
-                                <svg class="absolute left-0 hidden w-10 h-10 fill-current sm:block text-wave-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 125">
+                                <svg class="absolute left-0 hidden w-10 h-10 fill-current sm:block text-gray-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 125">
                                     <path d="M30.7 42c0 6.1 12.6 7 12.6 22 0 11-7.9 19.2-18.9 19.2C12.7 83.1 5 72.6 5 61.5c0-19.2 18-44.6 29.2-44.6 2.8 0 7.9 2 7.9 5.4S30.7 31.6 30.7 42zM82.4 42c0 6.1 12.6 7 12.6 22 0 11-7.9 19.2-18.9 19.2-11.8 0-19.5-10.5-19.5-21.6 0-19.2 18-44.6 29.2-44.6 2.8 0 7.9 2 7.9 5.4S82.4 31.6 82.4 42z" />
                                 </svg>
                                 <p class="mt-2 text-base text-gray-600">This is the best solution available for creating your own Software as a Service!</p>

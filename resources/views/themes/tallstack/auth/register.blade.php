@@ -9,7 +9,7 @@
         </h2>
         <p class="mt-4 text-sm leading-5 text-center text-gray-600 max-w">
             or, you can
-            <a href="{{ route('login') }}" class="font-medium transition duration-150 ease-in-out text-wave-600 hover:text-wave-500 focus:outline-none focus:underline">
+            <a href="{{ route('login') }}" class="font-medium transition duration-150 ease-in-out text-gray-600 hover:text-gray-500 focus:outline-none focus:underline">
                 login here
             </a>
         </p>
@@ -113,7 +113,7 @@
                                 Register
                             </button>
                         </span>
-                        <a href="{{ route('login') }}" class="mt-3 font-medium transition duration-150 ease-in-out text-wave-600 hover:text-wave-500 focus:outline-none focus:underline">
+                        <a href="{{ route('login') }}" class="mt-3 font-medium transition duration-150 ease-in-out text-gray-600 hover:text-gray-500 focus:outline-none focus:underline">
                             Already have an account? Login here
                         </a>
                     </div>
