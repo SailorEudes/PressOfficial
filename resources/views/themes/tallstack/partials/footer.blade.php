@@ -1,28 +1,28 @@
 <footer class="@if(Request::is('/')){{ 'bg-white' }}@else{{ 'bg-gray-50' }}@endif">
     <div class="px-8 pt-16 mx-auto lg:px-12 xl:px-16 max-w-7xl">
         <div class="flex flex-wrap items-start justify-between pb-20">
-            <a href="#_" class="flex items-center w-auto text-lg font-bold md:w-1/6"> <span class="ml-1"><img src="./fox/img/foxlogobeta.png" width="50"></span></a>
+            <a href="#_" class="flex items-center w-auto text-lg font-bold md:w-1/6"> <span class="ml-1"><img src="{{ env('APP_URL') }}/fox/img/foxlogobeta.png" width="50"></span></a>
             <div class="grid w-full grid-cols-2 mt-20 sm:grid-cols-4 gap-y-16 lg:gap-x-8 md:w-5/6 md:mt-0 md:pr-6">
                 @if(Route::is('wave.home') )
-                <div class="md:justify-self-end"><a href="#welcome" class="font-semibold text-black">
-                        Welcome
+                <div class="md:justify-self-end"><a href="{{ env('APP_URL') }}/#welcome" class="font-semibold text-black">
+                        {{ __('messages.Menus.Welcome') }}
                     </a></div>
-                <div class="md:justify-self-end"><a href="#features" class="font-semibold text-black">
-                        Features
+                <div class="md:justify-self-end"><a href="{{ env('APP_URL') }}/#features" class="font-semibold text-black">
+                        {{ __('messages.Menus.Features') }}
                     </a></div>
-                <div class="md:justify-self-end"><a href="#team" class="font-semibold text-black">
-                        Team
+                <div class="md:justify-self-end"><a href="{{ env('APP_URL') }}/#team" class="font-semibold text-black">
+                        {{ __('messages.Menus.Team') }}
                     </a></div>
-                <div class="md:justify-self-end"><a href="#prices" class="font-semibold text-black">
-                        Plans
+                <div class="md:justify-self-end"><a href="{{ env('APP_URL') }}/#prices" class="font-semibold text-black">
+                        {{ __('messages.Menus.Plans') }}
                     </a>
                 </div>
                 @else
-                <div class="md:justify-self-end"><a href="./" class="font-semibold text-black">
-                        Welcome
+                <div class="md:justify-self-end"><a href="{{ env('APP_URL') }}" class="font-semibold text-black">
+                        {{ __('messages.Menus.Welcome') }}
                     </a></div>
                 <div class="md:justify-self-end"><a href="{{ route('wave.blog') }}" class="font-semibold text-black">
-                        Blog
+                        {{ __('messages.Menus.Blog') }}
                     </a></div>
                 @endif
             </div>

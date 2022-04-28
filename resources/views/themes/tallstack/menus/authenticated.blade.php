@@ -75,9 +75,9 @@
             <div>
                 <button @click="open = !open" class="flex text-sm transition duration-150 ease-in-out border-2 border-transparent rounded-full focus:outline-none focus:border-gray-300" id="lang-menu" aria-label="Lang menu" aria-haspopup="true" x-bind:aria-expanded="open" aria-expanded="true">
                     @if(app()->getLocale() == "fr")
-                    <img class="w-8 h-8 rounded-full" src="./fox/flags/fr.png" alt="{{ __('messages.Menus.French') }}">
+                    <img class="w-8 h-8 rounded-full" src="{{ env('APP_URL') }}/fox/flags/fr.png" alt="{{ __('messages.Menus.French') }}">
                     @else
-                    <img class="w-8 h-8 rounded-full" src="./fox/flags/en.png" alt="{{ __('messages.Menus.English') }}">
+                    <img class="w-8 h-8 rounded-full" src="{{ env('APP_URL') }}/fox/flags/en.png" alt="{{ __('messages.Menus.English') }}">
                     @endif
                 </button>
             </div>
