@@ -20,6 +20,13 @@ return [
         'myProfile'       => 'Mon profil',
         'settings'       => 'Paramètres',
         'signIn'       => 'Connexion',
+        'signUp'       => 'Inscription',
         'existingCustomer'       => 'Client existant ?',
-    ]
+    ],
+
+    'Announcements' => [
+        'viewAllAnnouncements'       => 'Voir toutes les annonces',
+        'allAnnouncements'       => 'Toutes les annonces',
+        'announcements'       => 'Annonces',
+    ],
 ];

@@ -22,5 +22,11 @@ return [
         'signIn'       => 'Sign In',
         'signUp'       => 'Sign Up',
         'existingCustomer'       => 'Existing Customer ?',
-    ]
+    ],
+
+    'Announcements' => [
+        'viewAllAnnouncements'       => 'View All Announcements',
+        'allAnnouncements'       => 'All Announcements',
+        'announcements'       => 'Announcements',
+    ],
 ];
