@@ -16,7 +16,7 @@
                 {{ __('messages.Blog.checkTheBlog') }}
             </p>
             <ul class="flex self-start inline w-auto px-3 py-1 mt-3 text-xs font-medium text-white bg-gradient-to-r from-yellow-400 via-red-400 to-purple-500 rounded-md">
-                <li class="mr-4 font-bold text-white uppercase">{ __('messages.Blog.Categories') }}</li>
+                <li class="mr-4 font-bold text-white uppercase">{{ __('messages.Blog.Categories') }}</li>
                 @foreach($categories as $cat)
                 <li class="@if(isset($category) && isset($category->slug) && ($category->slug == $cat->slug)){{ 'text-blue-700' }}@endif"><a href="{{ route('wave.blog.category', $cat->slug) }}">{{ $cat->name }}</a></li>
                 @if(!$loop->last)
