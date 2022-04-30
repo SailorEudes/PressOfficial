@@ -63,13 +63,13 @@
 
                 <div class="flex items-center p-6 bg-gray-50">
                     <div class="flex-shrink-0">
-                        <div>
+                        <a href="mailto:contact@foxcase.fr">
                             <img class="w-10 h-10 rounded-full" src="{{ $post->user->avatar() }}" alt="">
-                        </div>
+                        </a>
                     </div>
                     <div class="ml-3">
                         <p class="text-sm font-medium leading-5 text-gray-900">
-                            {{ __('messages.Blog.writtenBy') }} <div class="hover:underline">{{ $post->user->name }}</div>
+                            {{ __('messages.Blog.writtenBy') }} <a href="mailto:contact@foxcase.fr" class="hover:underline">{{ $post->user->name }}</a>
                         </p>
                         <div class="flex text-sm leading-5 text-gray-500">
                             {{ __('messages.Blog.dateOfPublish') }} <time datetime="{{ Carbon\Carbon::parse($post->created_at)->toIso8601String() }}" class="ml-1">{{ Carbon\Carbon::parse($post->created_at)->toFormattedDateString() }}</time>
