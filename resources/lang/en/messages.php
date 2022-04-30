@@ -51,7 +51,7 @@ return [
 
         'Positions' => [
             'Developer'       => 'Developer',
-            'Consultant'       => 'Developer',
+            'Consultant'       => 'Consultant',
             'Lead'       => 'Lead Developer',
             'SEO'       => 'SEO Manager',
             'CEO'       => 'CEO',
