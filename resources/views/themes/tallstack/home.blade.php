@@ -254,7 +254,7 @@
 <!-- Testimonials -->
 <section id="testimonials" class="box-border relative block w-full py-32 overflow-hidden leading-6 text-left text-white bg-gray-900">
     <div class="max-w-6xl px-4 px-12 mx-auto leading-6 text-left">
-        <div class="box-border flex flex-wrap justify-center text-center text-white lg:justify-start lg:text-left">
+        <div class="box-border flex flex-wrap justify-center text-left text-white lg:justify-start lg:text-left">
             <div class="flex flex-col items-start justify-start mb-12">
                 <h2 class="inline-block mb-2 mr-5 text-4xl font-extrabold tracking-tight bg-clip-text bg-gradient-to-r from-yellow-400 via-red-400 to-purple-500 text-transparent">
                     {!! __('messages.Home.Testimonials.Subtitle') !!}
