@@ -128,7 +128,7 @@
         <p class="text-gray-800 font-medium uppercase">
             {!! __('messages.Home.Features.Subtitle') !!}
         </p>
-        <h2 class="font-bold text-3xl sm:text-4xl lg:text-5xl mt-3 bg-clip-text  bg-gradient-to-r from-yellow-400 via-red-400 to-purple-500 text-transparent">
+        <h2 class="font-bold text-3xl sm:text-4xl lg:text-5xl mt-3 bg-clip-text bg-gradient-to-r from-yellow-400 via-red-400 to-purple-500 text-transparent">
             {!! __('messages.Home.Features.Title') !!}
         </h2>
         <p class=" mt-4 text-gray-500 text-base sm:text-xl lg:text-2xl">
@@ -155,7 +155,7 @@
 <section id="team" class="py-20 pb-32 bg-gray-900">
     <div class="relative max-w-6xl px-10 mx-auto">
         <div class="flex flex-col items-start justify-start mb-12">
-            <h2 class="inline-block mb-2 mr-5 text-4xl font-extrabold tracking-tight text-white">
+            <h2 class="inline-block mb-2 mr-5 text-4xl font-extrabold tracking-tight bg-clip-text bg-gradient-to-r from-yellow-400 via-red-400 to-purple-500 text-transparent">
                 {!! __('messages.Home.Team.Subtitle') !!}
             </h2>
             <p class="text-xl text-gray-400">
@@ -256,7 +256,7 @@
     <div class="max-w-6xl px-4 px-12 mx-auto leading-6 text-left">
         <div class="box-border flex flex-wrap justify-center text-center text-white lg:justify-start lg:text-left">
             <div class="flex flex-col items-start justify-start mb-12">
-                <h2 class="inline-block mb-2 mr-5 text-4xl font-extrabold tracking-tight text-white">
+                <h2 class="inline-block mb-2 mr-5 text-4xl font-extrabold tracking-tight bg-clip-text bg-gradient-to-r from-yellow-400 via-red-400 to-purple-500 text-transparent">
                     {!! __('messages.Home.Testimonials.Subtitle') !!}
                 </h2>
                 <p class="text-xl text-gray-400">
