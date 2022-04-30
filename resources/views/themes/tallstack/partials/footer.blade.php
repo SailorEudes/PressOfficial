@@ -2,7 +2,7 @@
     <div class="px-8 pt-16 mx-auto lg:px-12 xl:px-16 max-w-7xl">
         <div class="flex flex-wrap items-start justify-between pb-20">
 
-            <a href="#_" class="flex items-center w-auto text-lg font-bold md:w-1/6">
+            <a href="{{ env('APP_URL') }}" class="flex items-center w-auto text-lg font-bold md:w-1/6">
                 <span class="ml-1">
                     <h1 class="text-1xl sm:text-2xl lg:text-3xl font-black drop-shadow-md uppercase text-center">
                         <span class="bg-clip-text bg-gradient-to-r from-yellow-400 via-red-400 to-purple-500 text-transparent pr-2">Foxpress</span>
@@ -21,10 +21,6 @@
                 <div class="md:justify-self-end"><a href="{{ env('APP_URL') }}/#team" class="font-semibold text-black">
                         {{ __('messages.Menus.Team') }}
                     </a></div>
-                <div class="md:justify-self-end"><a href="{{ env('APP_URL') }}/#prices" class="font-semibold text-black">
-                        {{ __('messages.Menus.Plans') }}
-                    </a>
-                </div>
                 @else
                 <div class="md:justify-self-end"><a href="{{ env('APP_URL') }}" class="font-semibold text-black">
                         {{ __('messages.Menus.Welcome') }}
@@ -33,18 +29,16 @@
                         {{ __('messages.Menus.Blog') }}
                     </a></div>
                 @endif
+                <div class="md:justify-self-end"><a href="{{ env('APP_URL') }}/show-cgv" class="font-semibold text-black">
+                        {{ __('messages.Menus.GTS') }}
+                    </a></div>
             </div>
         </div>
 
         <div class="flex flex-col items-center justify-between py-10 border-t border-solid lg:flex-row border-gray">
             <ul class="flex flex-wrap space-x-5 text-xs">
                 <li class="mb-6 text-center text-gray-400 flex-full lg:flex-none lg:mb-0">
-                    &copy; <b>{{ setting('site.title', 'Foxpress') }}</b> was created on {{ date('Y') }} from 🗼, thanks to an astronomical amount of ☕ and a team of crazy 🦊
-                </li>
-            </ul>
-            <ul class="flex flex-wrap space-x-5 text-xs">
-                <li class="mb-6 text-center text-gray-400 flex-full lg:flex-none lg:mb-0">
-                    <a href="show-cgv">CGV</a>
+                    {!! __('messages.footerCoolText') !!}
                 </li>
             </ul>
             <ul class="flex items-center mt-10 space-x-5 lg:mt-0">

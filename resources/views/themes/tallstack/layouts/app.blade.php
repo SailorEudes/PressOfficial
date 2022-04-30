@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ app()->getLocale() }}">
+<html lang="{{ app()->getLocale() }}" class="notranslate" translate="no">
 
 <head>
 
@@ -29,6 +29,7 @@
     <link rel="icon" type="image/png" sizes="96x96" href="./fox/favicons/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./fox/favicons/favicon-16x16.png">
     <link rel="manifest" href="./fox/favicons/manifest.json">
+    <meta name="google" content="notranslate" />
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="./fox/favicons/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
