@@ -84,8 +84,8 @@ return [
         ],
 
         'Testimonials' => [
-            'Subtitle'       => 'Ils parlent de nous',
-            'Title'       => 'Découvrez deux récits poétiques, construits, de deux personnes géniales, qui ont décidé, elles aussi, de se lancer 💪',
+            'Subtitle'       => 'They talk about us',
+            'Title'       => 'Discover two poetic stories, built by two great people, who also decided to launch themselves 💪',
             'Lionel'       => 'I had many proposals for systems that were based on the same fundamentals as Foxpress, but each time, there was a problem, something missing, or not very clear. Then, I discussed with Christopher about the solutions that could bring me Foxpress, and I decided to trust him and to test this SAAS 🧐',
             'Elena'       => 'Working internationally and with companies wishing to evolve in the digital field. I decided to turn to the Foxpress team to find a solution that would allow me to produce quickly, without compromising the quality of service. From now on, I will be using Foxpress for a very long time, at least, i hope so 😎',
         ],
