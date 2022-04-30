@@ -19,6 +19,32 @@
     @endif
     @endif
 
+    @if(config('wave.paddle.env') == 'sandbox')
+    <div class="relative max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 pb-10">
+        <div class="w-full p-10 text-white shadow-xl lg:rounded-lg bg-gray-900">
+            <div class="flex items-center pb-4">
+                <svg class="mr-2 w-14 h-14 text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4 4a2 2 0 00-2 2v1h16V6a2 2 0 00-2-2H4z"></path>
+                    <path fill-rule="evenodd" d="M18 9H2v5a2 2 0 002 2h12a2 2 0 002-2V9zM4 13a1 1 0 011-1h1a1 1 0 110 2H5a1 1 0 01-1-1zm5-1a1 1 0 100 2h1a1 1 0 100-2H9z" clip-rule="evenodd"></path>
+                </svg>
+                <div class="relative">
+                    <h2 class="text-base font-bold text-white">Sandbox Mode</h2>
+                    <p class="text-sm text-white">Application billing is in sandbox mode, which means you can test the checkout process using the following credentials:</p>
+                </div>
+            </div>
+            <div class="pt-2 text-sm font-bold text-white">
+                Credit Card Number: <span class="ml-2 font-mono bg-clip-text bg-gradient-to-r from-yellow-400 via-red-400 to-purple-500 text-transparent">4242 4242 4242 4242</span>
+            </div>
+            <div class="pt-2 text-sm font-bold text-white">
+                Expiration Date: <span class="ml-2 font-mono bg-clip-text bg-gradient-to-r from-yellow-400 via-red-400 to-purple-500 text-transparent">Any future date</span>
+            </div>
+            <div class="pt-2 text-sm font-bold text-white">
+                Security Code: <span class="ml-2 font-mono bg-clip-text bg-gradient-to-r from-yellow-400 via-red-400 to-purple-500 text-transparent">Any 3 digits</span>
+            </div>
+        </div>
+    </div>
+    @endif
+
     @foreach(Wave\Plan::all() as $plan)
     @php $features = explode(',', $plan->features); @endphp
     <div class="relative max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 pb-10">
@@ -186,30 +212,4 @@
     @endforeach
 
     @include('theme::partials.switch-plans-modal')
-
-    @if(config('wave.paddle.env') == 'sandbox')
-    <div class="relative max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 pb-10">
-        <div class="w-full p-10 text-white shadow-xl lg:rounded-lg bg-gray-900">
-            <div class="flex items-center pb-4">
-                <svg class="mr-2 w-14 h-14 text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M4 4a2 2 0 00-2 2v1h16V6a2 2 0 00-2-2H4z"></path>
-                    <path fill-rule="evenodd" d="M18 9H2v5a2 2 0 002 2h12a2 2 0 002-2V9zM4 13a1 1 0 011-1h1a1 1 0 110 2H5a1 1 0 01-1-1zm5-1a1 1 0 100 2h1a1 1 0 100-2H9z" clip-rule="evenodd"></path>
-                </svg>
-                <div class="relative">
-                    <h2 class="text-base font-bold text-white">Sandbox Mode</h2>
-                    <p class="text-sm text-white">Application billing is in sandbox mode, which means you can test the checkout process using the following credentials:</p>
-                </div>
-            </div>
-            <div class="pt-2 text-sm font-bold text-white">
-                Credit Card Number: <span class="ml-2 font-mono bg-clip-text  bg-gradient-to-r from-yellow-400 via-red-400 to-purple-500 text-transparent">4242 4242 4242 4242</span>
-            </div>
-            <div class="pt-2 text-sm font-bold text-white">
-                Expiration Date: <span class="ml-2 font-mono bg-clip-text  bg-gradient-to-r from-yellow-400 via-red-400 to-purple-500 text-transparent">Any future date</span>
-            </div>
-            <div class="pt-2 text-sm font-bold text-white">
-                Security Code: <span class="ml-2 font-mono bg-clip-text  bg-gradient-to-r from-yellow-400 via-red-400 to-purple-500 text-transparent">Any 3 digits</span>
-            </div>
-        </div>
-    </div>
-    @endif
 </div>

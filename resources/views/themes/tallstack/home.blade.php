@@ -17,13 +17,13 @@
 <section id="welcome" class="w-full h-auto overflow-hidden relative bg-white">
     <div class="max-w-7xl mx-auto pt-10 md:pt-20 flex items-center lg:px-0 px-10 justify-center flex-col">
         <p class="text-gray-800 uppercase text-xl sm:text-1xl lg:text-2xl font-medium max-w-xl text-center">
-            Hi dude, and welcome to
+            {!! __('messages.Home.Welcome.Title') !!}
         </p>
         <h1 class="text-5xl sm:text-6xl lg:text-7xl font-black drop-shadow-md uppercase text-center mt-10 mb-10">
             <span class="bg-clip-text bg-gradient-to-r from-yellow-400 via-red-400 to-purple-500 text-transparent pr-7">Foxpress</span>
         </h1>
         <p class="text-gray-800 text-xl sm:text-1xl lg:text-2xl font-medium max-w-xl text-center mb-10">
-            <cite>"The SAAS of tomorrow, which wants to be young, but ambitious at the same time !"</cite> according to :
+            {!! __('messages.Home.Welcome.Subtitle') !!}
         </p>
     </div>
     <div class="h-auto mx-auto w-full max-w-3xl xl:max-w-4xl border-2 border-b-0 border-gray-900 md:rounded-lg md:rounded-b-none">
@@ -46,7 +46,7 @@
                                 Paul
                             </h4>
                             <p class="text-sm bg-clip-text  bg-gradient-to-r from-yellow-400 via-red-400 to-purple-500 text-transparent font-medium">
-                                Developer
+                                {!! __('messages.Home.Positions.Developer') !!}
                             </p>
                         </div>
                     </div>
@@ -65,7 +65,7 @@
                                 Caroline
                             </h4>
                             <p class="text-sm bg-clip-text  bg-gradient-to-r from-yellow-400 via-red-400 to-purple-500 text-transparent font-medium">
-                                Consultant
+                                {!! __('messages.Home.Positions.Consultant') !!}
                             </p>
                         </div>
                     </div>
@@ -83,7 +83,7 @@
                                 Anthony
                             </h4>
                             <p class="text-sm bg-clip-text  bg-gradient-to-r from-yellow-400 via-red-400 to-purple-500 text-transparent font-medium">
-                                Lead Developer
+                                {!! __('messages.Home.Positions.Lead') !!}
                             </p>
                         </div>
                     </div>
@@ -98,7 +98,7 @@
                                 Sandrine
                             </h4>
                             <p class="text-sm bg-clip-text  bg-gradient-to-r from-yellow-400 via-red-400 to-purple-500 text-transparent font-medium">
-                                SEO Manager
+                                {!! __('messages.Home.Positions.SEO') !!}
                             </p>
                         </div>
                     </div>
@@ -126,14 +126,13 @@
 <section id="features" class="py-12 sm:py-16 bg-white">
     <div class="max-w-7xl px-10 mx-auto sm:text-center">
         <p class="text-gray-800 font-medium uppercase">
-            Unlimited possibilities
+            {!! __('messages.Home.Features.Subtitle') !!}
         </p>
         <h2 class="font-bold text-3xl sm:text-4xl lg:text-5xl mt-3 bg-clip-text  bg-gradient-to-r from-yellow-400 via-red-400 to-purple-500 text-transparent">
-            Do what you want, where you want
+            {!! __('messages.Home.Features.Title') !!}
         </h2>
         <p class=" mt-4 text-gray-500 text-base sm:text-xl lg:text-2xl">
-            You are our orchestra leader.<br class="lg:hidden hidden sm:block">
-            Find out why 👇
+            {!! __('messages.Home.Features.Description') !!}
         </p>
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 my-12 sm:my-16">
 
@@ -157,10 +156,10 @@
     <div class="relative max-w-6xl px-10 mx-auto">
         <div class="flex flex-col items-start justify-start mb-12">
             <h2 class="inline-block mb-2 mr-5 text-4xl font-extrabold tracking-tight text-white">
-                Meet the Team
+                {!! __('messages.Home.Team.Subtitle') !!}
             </h2>
             <p class="text-xl text-gray-400">
-                Meet the awesome team behind the magic 🔮
+                {!! __('messages.Home.Team.Title') !!}
             </p>
         </div>
         <div class="grid grid-cols-1 gap-10 mt-10 md:grid-cols-2 xl:grid-cols-2">
@@ -169,7 +168,7 @@
                     <div class="flex-shrink-0 mr-4"><img src="/fox/img/chris.jpg" alt="Chris" class="w-16 h-16 rounded-full"></div>
                     <div class="flex-1 min-w-0"><a class="focus:outline-none">
                             <p class="text-lg font-medium text-gray-100">Christopher Dolbert</p>
-                            <p class="text-sm text-gray-400 truncate">Founder / CEO</p>
+                            <p class="text-sm text-gray-400 truncate">{!! __('messages.Home.Positions.CEO') !!}</p>
                         </a></div>
                     <div class="flex-1 flex-grow-0 pr-2 text-gray-200">
                         <div class="relative flex items-center justify-end space-x-3"><a target="_blank" href="https://github.com/SailorEudes" class="text-gray-300 hover:text-gray-200"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-5 h-5 fill-current">
@@ -184,7 +183,7 @@
                     <div class="flex-shrink-0 mr-4"><img src="/fox/img/max.jpg" alt="Max" class="w-16 h-16 rounded-full"></div>
                     <div class="flex-1 min-w-0"><a class="focus:outline-none">
                             <p class="text-lg font-medium text-gray-100">Maxime Hery</p>
-                            <p class="text-sm text-gray-400 truncate">Co-Founder</p>
+                            <p class="text-sm text-gray-400 truncate">{!! __('messages.Home.Positions.assistantCEO') !!}</p>
                         </a></div>
                     <div class="flex-1 flex-grow-0 pr-2 text-gray-200">
                         <div class="relative flex items-center justify-end space-x-3"><a target="_blank" href="https://github.com/maximehery" class="text-gray-300 hover:text-gray-200"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-5 h-5 fill-current">
@@ -199,7 +198,7 @@
                     <div class="flex-shrink-0 mr-4"><img src="/fox/img/amine.jpg" alt="Amine" class="w-16 h-16 rounded-full"></div>
                     <div class="flex-1 min-w-0"><a class="focus:outline-none">
                             <p class="text-lg font-medium text-gray-100">Amine Ouhani</p>
-                            <p class="text-sm text-gray-400 truncate">Fullstack Developer</p>
+                            <p class="text-sm text-gray-400 truncate">{!! __('messages.Home.Positions.fullstackDev') !!}</p>
                         </a></div>
                     <div class="flex-1 flex-grow-0 pr-2 text-gray-200">
                         <div class="relative flex items-center justify-end space-x-3"><a target="_blank" href="https://github.com/amineohn" class="text-gray-300 hover:text-gray-200"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-5 h-5 fill-current">
@@ -214,7 +213,7 @@
                     <div class="flex-shrink-0 mr-4"><img src="/fox/img/noham.jpg" alt="Noham Hirep" class="w-16 h-16 rounded-full"></div>
                     <div class="flex-1 min-w-0"><a class="focus:outline-none">
                             <p class="text-lg font-medium text-gray-100">Noham Hirep</p>
-                            <p class="text-sm text-gray-400 truncate">Fullstack Developer</p>
+                            <p class="text-sm text-gray-400 truncate">{!! __('messages.Home.Positions.fullstackDev') !!}</p>
                         </a></div>
                     <div class="flex-1 flex-grow-0 pr-2 text-gray-200">
                         <div class="relative flex items-center justify-end space-x-3"><a href="#_" class="text-gray-300 hover:text-gray-200"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-5 h-5 fill-current">
@@ -235,13 +234,13 @@
     <div class="relative px-8 pb-8 mx-auto max-w-7xl xl:px-5 py-12 bg-white md:py-20">
         <div class="max-w-4xl px-10 mx-auto text-left md:text-center pb-14 md:px-0">
             <p class="text-gray-800 font-medium uppercase">
-                The exorbitant and incomprehensible prices are garbage !
+                {!! __('messages.Home.Pricing.Subtitle') !!}
             </p>
             <h2 class="font-bold text-3xl sm:text-4xl lg:text-5xl mt-3 bg-clip-text  bg-gradient-to-r from-yellow-400 via-red-400 to-purple-500 text-transparent">
-                Our prices are adapted to your needs.
+                {!! __('messages.Home.Pricing.Title') !!}
             </h2>
             <p class=" mt-4 text-gray-500 text-base sm:text-xl lg:text-2xl">
-                No hidden fees, no VAT, and daily transparency 💸
+                {!! __('messages.Home.Pricing.Description') !!}
             </p>
         </div>
 
@@ -252,24 +251,42 @@
 <!-- END OF PRICING SECTION -->
 
 
-<section id="newsletters" class="box-border relative block py-20 overflow-hidden leading-6 text-center text-white bg-gradient-to-r from-purple-400 via-red-400 to-yellow-500">
-    <div class="w-full max-w-2xl px-4 mx-auto leading-6 text-center xl:px-0">
-        <div class="box-border flex flex-wrap justify-center -mx-4 text-white">
-            <div class="relative w-full px-4 leading-6 text-center xl:flex-grow-0 xl:flex-shrink-0 lg:flex-grow-0 lg:flex-shrink-0">
-                <h2 class="box-border px-10 mx-0 mt-0 mb-10 font-sans text-2xl font-bold leading-tight text-white md:px-0 sm:text-3xl md:text-4xl">
-                    Sign up for our newsletter to receive weekly tips and strategies
+<!-- Testimonials -->
+<section id="testimonials" class="box-border relative block w-full py-32 overflow-hidden leading-6 text-left text-white bg-gray-900">
+    <div class="max-w-6xl px-4 px-12 mx-auto leading-6 text-left">
+        <div class="box-border flex flex-wrap justify-center text-center text-white lg:justify-start lg:text-left">
+            <div class="flex flex-col items-start justify-start mb-12">
+                <h2 class="inline-block mb-2 mr-5 text-4xl font-extrabold tracking-tight text-white">
+                    {!! __('messages.Home.Testimonials.Subtitle') !!}
                 </h2>
-                <form method="post" class="box-border text-center text-indigo-900">
-                    <div class="flex flex-wrap justify-center leading-6 text-indigo-900">
-                        <div class="box-border relative py-1 pr-1 text-center border-white rounded-md sm:border-2"><input type="email" placeholder="Your email" class="inline-block w-full h-16 px-6 py-0 mb-6 overflow-visible text-xl font-semibold text-white placeholder-white align-top bg-transparent border-2 border-white rounded-full sm:w-auto sm:border-0 sm:mb-0 focus:outline-none md:text-left"> <button class="inline-block w-full h-16 px-4 py-2 overflow-visible text-xl font-semibold text-white normal-case align-middle bg-gray-900 border border-transparent border-solid rounded-md cursor-pointer select-none sm:w-auto focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800">
-                                Sign Up
-                            </button></div>
-                    </div>
-                    <div class="mt-8 leading-6 text-white">
-                        By signing up, you agree to the Terms of Service.
-                    </div>
-                </form>
+                <p class="text-xl text-gray-400">
+                    {!! __('messages.Home.Testimonials.Title') !!}
+                </p>
             </div>
+            <div class="relative flex w-full pb-20 border-b border-purple-200 md:w-1/2 md:pb-0 md:pr-8 md:border-b-0 md:border-r">
+                <img src="{{ env('APP_URL') }}/fox/img/lionel.jpg" class="box-border w-12 h-12 text-white align-middle border-none rounded-full">
+                <div class="relative w-full px-4 leading-6 text-justify">
+                    <cite class="box-border text-xl text-white">
+                        "{{ __('messages.Home.Testimonials.Lionel') }}"
+                    </cite>
+                    <div class="box-border mt-4 text-sm font-semibold bg-clip-text bg-gradient-to-r from-yellow-400 via-red-400 to-purple-500 text-transparent uppercase">
+                        Lionel M.
+                    </div>
+                </div>
+            </div>
+
+            <div class="relative flex w-full pt-20 md:w-1/2 md:pt-0 md:pl-8">
+                <img src="{{ env('APP_URL') }}/fox/img/elena.jpg" class="box-border w-12 h-12 text-white align-middle border-none rounded-full">
+                <div class="relative w-full px-4 leading-6 text-justify">
+                    <cite class="box-border text-xl text-white">
+                        "{{ __('messages.Home.Testimonials.Elena') }}"
+                    </cite>
+                    <div class="box-border mt-4 text-sm font-semibold bg-clip-text bg-gradient-to-r from-purple-500 via-red-400 to-yellow-400 text-transparent uppercase">
+                        Elena D.
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 </section>
