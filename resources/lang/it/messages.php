@@ -81,7 +81,7 @@ return [
         'Features' => [
             'Subtitle'       => 'Possibilità illimitate',
             'Title'       => 'Fai quello che vuoi, dove vuoi',
-            'Description'       => 'Lei è il nostro direttore d\'orchestra. <br class="lg:hidden hidden sm:block">Scopri perché 👇',
+            'Description'       => 'Lei è il nostro direttore d\'orchestra. <br class="lg:hidden hidden sm:block">Ecco perché 👇',
         ],
 
         'Team' => [
@@ -106,5 +106,16 @@ return [
                 'toEmail'       => 'contact@foxcase.fr?subject=La mia opinione su Foxpress',
             ]
         ],
+    ],
+
+    'Blog' => [
+        'ourAwesomeBlog'       => 'Il nostro fantastico blog',
+        'checkTheBlog'       => 'Dai un\'occhiata ad alcuni dei nostri ultimi post.',
+        'Categories'       => 'Categorie :',
+        'writtenBy'       => 'Scritto da',
+        'dateOfPublish'       => 'il',
+        'backToBlog'       => 'torna al blog',
+        'writtenOn'       => 'Scritto il',
+        'postedIn'       => 'Pubblicato in',
     ],
 ];

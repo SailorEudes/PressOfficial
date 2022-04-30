@@ -10,13 +10,13 @@
     <div class="relative mx-auto max-w-7xl">
         <div class="flex flex-col justify-start">
             <h1 class="bg-clip-text bg-gradient-to-r from-yellow-400 via-red-400 to-purple-500 text-transparent text-3xl font-extrabold leading-9 tracking-tight sm:text-4xl sm:leading-10">
-                Our Awesome Blog
+                {{ __('messages.Blog.ourAwesomeBlog') }}
             </h1>
             <p class="mt-3 text-xl leading-7 text-gray-500 sm:mt-4">
-                Check out some of our latest blog posts below.
+                {{ __('messages.Blog.checkTheBlog') }}
             </p>
             <ul class="flex self-start inline w-auto px-3 py-1 mt-3 text-xs font-medium text-white bg-gradient-to-r from-yellow-400 via-red-400 to-purple-500 rounded-md">
-                <li class="mr-4 font-bold text-white uppercase">Categories:</li>
+                <li class="mr-4 font-bold text-white uppercase">{ __('messages.Blog.Categories') }}</li>
                 @foreach($categories as $cat)
                 <li class="@if(isset($category) && isset($category->slug) && ($category->slug == $cat->slug)){{ 'text-blue-700' }}@endif"><a href="{{ route('wave.blog.category', $cat->slug) }}">{{ $cat->name }}</a></li>
                 @if(!$loop->last)
@@ -69,10 +69,10 @@
                     </div>
                     <div class="ml-3">
                         <p class="text-sm font-medium leading-5 text-gray-900">
-                            Written by <a href="#" class="hover:underline">{{ $post->user->name }}</a>
+                            {{ __('messages.Blog.writtenBy') }} <a href="#" class="hover:underline">{{ $post->user->name }}</a>
                         </p>
                         <div class="flex text-sm leading-5 text-gray-500">
-                            on <time datetime="{{ Carbon\Carbon::parse($post->created_at)->toIso8601String() }}" class="ml-1">{{ Carbon\Carbon::parse($post->created_at)->toFormattedDateString() }}</time>
+                            {{ __('messages.Blog.dateOfPublish') }} <time datetime="{{ Carbon\Carbon::parse($post->created_at)->toIso8601String() }}" class="ml-1">{{ Carbon\Carbon::parse($post->created_at)->toFormattedDateString() }}</time>
                         </div>
                     </div>
                 </div>

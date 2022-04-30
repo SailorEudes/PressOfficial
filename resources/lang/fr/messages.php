@@ -107,4 +107,15 @@ return [
             ]
         ],
     ],
+
+    'Blog' => [
+        'ourAwesomeBlog'       => 'Notre super blog',
+        'checkTheBlog'       => 'Découvrez ci-dessous quelques-uns de nos derniers articlesg.',
+        'Categories'       => 'Catégories :',
+        'writtenBy'       => 'Écrit par',
+        'dateOfPublish'       => 'le',
+        'backToBlog'       => 'retour au blog',
+        'writtenOn'       => 'Écrit le',
+        'postedIn'       => 'Publié dans',
+    ],
 ];

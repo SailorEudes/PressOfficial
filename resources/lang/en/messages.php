@@ -116,4 +116,15 @@ return [
         ],
     ],
 
+    'Blog' => [
+        'ourAwesomeBlog'       => 'Our Awesome Blog',
+        'checkTheBlog'       => 'Check out some of our latest blog posts below.',
+        'Categories'       => 'Categories :',
+        'writtenBy'       => 'Written by',
+        'dateOfPublish'       => 'on',
+        'backToBlog'       => 'back to the blog',
+        'writtenOn'       => 'Written on',
+        'postedIn'       => 'Posted in',
+    ],
+
 ];
