@@ -76,7 +76,9 @@
                 <button @click="open = !open" class="flex text-sm transition duration-150 ease-in-out border-2 border-transparent rounded-full focus:outline-none focus:border-gray-300" id="lang-menu" aria-label="Lang menu" aria-haspopup="true" x-bind:aria-expanded="open" aria-expanded="true">
                     @if(app()->getLocale() == "fr")
                     <img class="w-8 h-8 rounded-full" src="{{ env('APP_URL') }}/fox/flags/fr.png" alt="{{ __('messages.Menus.French') }}">
-                    @else
+                    @elseif(app()->getLocale() == "it")
+                    <img class="w-8 h-8 rounded-full" src="{{ env('APP_URL') }}/fox/flags/it.png" alt="{{ __('messages.Menus.Italian') }}">
+                    @else 
                     <img class="w-8 h-8 rounded-full" src="{{ env('APP_URL') }}/fox/flags/en.png" alt="{{ __('messages.Menus.English') }}">
                     @endif
                 </button>
@@ -87,14 +89,19 @@
                 <div class="bg-white border border-gray-100 shadow-md rounded-xl" role="menu" aria-orientation="vertical" aria-labelledby="options-menu">
                     <div class="block px-4 py-3 text-gray-700 hover:text-gray-800">
                         <span class="text-xs leading-5 text-gray-600">
-                            <b>{{ __('messages.Menus.currentLang') }} : <span class="bg-clip-text bg-gradient-to-r from-yellow-400 via-red-400 to-purple-500 text-transparent pr-2">@if(app()->getLocale() == "fr") {{ __('messages.Menus.French') }} @else {{ __('messages.Menus.English') }} @endif</span></b>
+                            <b>{{ __('messages.Menus.currentLang') }} : <span class="bg-clip-text bg-gradient-to-r from-yellow-400 via-red-400 to-purple-500 text-transparent pr-2">@if(app()->getLocale() == "fr") {{ __('messages.Menus.French') }} @elseif(app()->getLocale() == "it") {{ __('messages.Menus.Italian') }} @else {{ __('messages.Menus.English') }} @endif</span></b>
                         </span>
                     </div>
                     <div class="border-t border-gray-100"></div>
                     <div class="py-1">
                         @if(app()->getLocale() == "en")
                         <a href="{{ url('locale/fr') }}" class="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:bg-gray-100 focus:text-gray-900">{{ __('messages.Menus.French') }}</a>
+                        <a href="{{ url('locale/it') }}" class="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:bg-gray-100 focus:text-gray-900">{{ __('messages.Menus.Italian') }}</a>
+                        @elseif(app()->getLocale() == "it")
+                        <a href="{{ url('locale/fr') }}" class="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:bg-gray-100 focus:text-gray-900">{{ __('messages.Menus.French') }}</a>
+                        <a href="{{ url('locale/en') }}" class="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:bg-gray-100 focus:text-gray-900">{{ __('messages.Menus.English') }}</a>
                         @else
+                        <a href="{{ url('locale/it') }}" class="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:bg-gray-100 focus:text-gray-900">{{ __('messages.Menus.Italian') }}</a>
                         <a href="{{ url('locale/en') }}" class="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:bg-gray-100 focus:text-gray-900">{{ __('messages.Menus.English') }}</a>
                         @endif
                     </div>

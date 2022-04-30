@@ -12,6 +12,7 @@ return [
         'Blog'       => 'Blog',
         'French'       => 'French',
         'English'       => 'English',
+        'Italian'       => 'Italian',
         'currentLang'       => 'Current language',
         'viewProfile'       => 'View Profile',
         'signOut'       => 'Sign Out',

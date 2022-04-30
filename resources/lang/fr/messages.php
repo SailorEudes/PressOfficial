@@ -12,6 +12,7 @@ return [
         'Blog'       => 'Articles',
         'French'       => 'Français',
         'English'       => 'Anglais',
+        'Italian'       => 'Italien',
         'currentLang'       => 'Langue actuelle',
         'viewProfile'       => 'Voir le profil',
         'signOut'       => 'Déconnexion',
@@ -79,7 +80,7 @@ return [
         'Testimonials' => [
             'Subtitle'       => 'Ils parlent de nous',
             'Title'       => 'Découvrez deux récits poétiques, construits, de deux personnes géniales, qui ont décidé, elles aussi, de se lancer 💪',
-            'Lionel'       => 'J\'ai eu beaucoup de proposition concernant des systèmes qui reprenaient les mêmes fondamentaux que Foxpress, mais à chaque fois, il y avait un problème, quelque chose de manquant, ou de pas très clair. Puis, j\'ai discuté avec Christopher des solutions que pouvaient m\'apporter Foxpress, et j\'ai décidé de lui faire confiance et de tester ce SAAS 🧐',
+            'Lionel'       => 'J\'ai eu beaucoup de proposition concernant des systèmes qui reprenaient les mêmes fondamentaux que Foxpress, mais à chaque fois, il y avait un problème, quelque chose de manquant, ou de pas très clair. Puis, j\'ai discuté avec <a class="bg-clip-text bg-gradient-to-r from-yellow-400 via-red-400 to-purple-500 text-transparent" href="#chris">Christopher</a> des solutions que pouvaient m\'apporter Foxpress, et j\'ai décidé de lui faire confiance et de tester ce SAAS 🧐',
             'Elena'       => 'Travaillant à l\'international et avec des entreprises souhaitant évoluer dans le domaine du digital. J\'ai décidé de me tourner vers l\'équipe de Foxpress afin de trouver une solution qui pourrait me permettre de produire rapidement, sans empiéter sur la qualité de service. Dorénavant, j\'utiliserai Foxpress, et ce, pour très longtemps, en tout cas, je l\'espère 😎',
 
             'CommitTestimonial' => [
