@@ -167,7 +167,7 @@
                 <div class="relative z-10 flex items-center w-full h-full px-6 py-5 bg-gray-900 rounded-lg">
                     <div class="flex-shrink-0 mr-4"><img src="/fox/img/chris.jpg" alt="Chris" class="w-16 h-16 rounded-full"></div>
                     <div class="flex-1 min-w-0"><a class="focus:outline-none">
-                            <p class="text-lg font-medium text-gray-100">Christopher Dolbert</p>
+                            <p id="chris" class="text-lg font-medium text-gray-100">Christopher Dolbert</p>
                             <p class="text-sm text-gray-400 truncate">{!! __('messages.Home.Positions.CEO') !!}</p>
                         </a></div>
                     <div class="flex-1 flex-grow-0 pr-2 text-gray-200">
@@ -267,7 +267,7 @@
                 <img src="{{ env('APP_URL') }}/fox/img/lionel.jpg" class="box-border w-12 h-12 text-white align-middle border-none rounded-full">
                 <div class="relative w-full px-4 leading-6 text-justify">
                     <cite class="box-border text-xl text-white">
-                        "{{ __('messages.Home.Testimonials.Lionel') }}"
+                        "{!! __('messages.Home.Testimonials.Lionel') !!}"
                     </cite>
                     <div class="box-border mt-4 text-sm font-semibold bg-clip-text bg-gradient-to-r from-yellow-400 via-red-400 to-purple-500 text-transparent uppercase">
                         Lionel M.
@@ -279,15 +279,20 @@
                 <img src="{{ env('APP_URL') }}/fox/img/elena.jpg" class="box-border w-12 h-12 text-white align-middle border-none rounded-full">
                 <div class="relative w-full px-4 leading-6 text-justify">
                     <cite class="box-border text-xl text-white">
-                        "{{ __('messages.Home.Testimonials.Elena') }}"
+                        "{!! __('messages.Home.Testimonials.Elena') !!}"
                     </cite>
                     <div class="box-border mt-4 text-sm font-semibold bg-clip-text bg-gradient-to-r from-purple-500 via-red-400 to-yellow-400 text-transparent uppercase">
                         Elena D.
                     </div>
                 </div>
             </div>
-
         </div>
+        <div class="mt-6">
+            <a href="mailto:{!! __('messages.Home.Testimonials.CommitTestimonial.toEmail') !!}" class="w-full inline-flex items-center justify-center px-4 py-4 text-base font-semibold text-white transition duration-150 ease-in-out bg-gray-800 hover:bg-gray-700 active:bg-gray-900 focus:border-gray-900 focus:shadow-outline-gray border border-transparent cursor-pointer focus:outline-none disabled:opacity-25">
+                {!! __('messages.Home.Testimonials.CommitTestimonial.Content') !!}
+            </a>
+        </div>
+    </div>
     </div>
 </section>
 
