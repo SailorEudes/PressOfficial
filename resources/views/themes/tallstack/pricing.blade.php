@@ -4,6 +4,7 @@
 
 <div class="py-20">
     <div class="max-w-4xl px-10 mx-auto text-left md:text-center pb-14 md:px-0">
+        
         <p class="text-gray-800 font-medium uppercase">
             The exorbitant and incomprehensible prices are garbage !
         </p>
