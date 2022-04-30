@@ -1,6 +1,7 @@
 <?php
 return [
     'footerCoolText'       => '© <b>' . setting('site.title', 'Foxpress') . '</b> was created on ' . date('Y') . ' from 🗼, thanks to an astronomical amount of ☕ and a team of crazy 🦊',
+
     'Menus' => [
         'Welcome'       => 'Welcome',
         'Techs'       => 'Techs',
@@ -42,6 +43,24 @@ return [
         'setupPassword'       => 'Setup Your New Password',
         'password'       => 'Password',
         'confirmPassword'       => 'Confirm Password',
+        'forgotPassword'       => 'Forgot your password?',
+        'rememberMe'       => 'Remember me',
+        'username'       => 'Username',
+    ],
+
+    'Register' => [
+        'signUpBelow'       => 'Sign up Below',
+        'orYouCan'       => 'or, you can',
+        'loginHere'       => 'login here',
+        'Profile'       => 'Profile',
+        'accountInformation'       => 'Information about your account.',
+        'Name'       => 'Name',
+        'Username'       => 'Username',
+        'emailAddress'       => 'Email Address',
+        'Password'       => 'Password',
+        'confirmPassword'       => 'Confirm Password',
+        'Register'       => 'Register',
+        'accountExist'       => 'Already have an account? Login here',
     ],
 
     'Home' => [

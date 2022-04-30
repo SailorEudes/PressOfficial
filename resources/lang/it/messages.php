@@ -42,6 +42,24 @@ return [
         'setupPassword'       => 'Imposta la tua nuova password',
         'password'       => 'Password',
         'confirmPassword'       => 'Conferma la password',
+        'forgotPassword'       => 'Hai dimenticato la tua password?',
+        'rememberMe'       => 'Ricordatevi di me',
+        'username'       => 'Nome utente',
+    ],
+
+    'Register' => [
+        'signUpBelow'       => 'Iscriversi qui sotto',
+        'orYouCan'       => 'oppure, è possibile',
+        'loginHere'       => 'accedere qui',
+        'Profile'       => 'Profilo',
+        'accountInformation'       => 'Informazioni sul suo conto.',
+        'Name'       => 'Nome',
+        'Username'       => 'Nome utente',
+        'emailAddress'       => 'Indirizzo e-mail',
+        'Password'       => 'Password',
+        'confirmPassword'       => 'Conferma la password',
+        'Register'       => 'Registrarsi',
+        'accountExist'       => 'Hai già un account? Accedi qui',
     ],
 
     'Home' => [

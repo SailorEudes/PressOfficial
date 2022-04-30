@@ -42,6 +42,24 @@ return [
         'setupPassword'       => 'Configurer votre nouveau mot de passe',
         'password'       => 'Mot de passe',
         'confirmPassword'       => 'Confirmer le mot de passe',
+        'forgotPassword'       => 'Vous avez oublié votre mot de passe ?',
+        'rememberMe'       => 'Rappelez-vous de moi',
+        'username'       => 'Nom d\'utilisateur',
+    ],
+
+    'Register' => [
+        'signUpBelow'       => 'Inscrivez-vous ci-dessous',
+        'orYouCan'       => 'ou, vous pouvez',
+        'loginHere'       => 'vous connecter ici',
+        'Profile'       => 'Profil',
+        'accountInformation'       => 'Informations sur votre compte.',
+        'Name'       => 'Nom',
+        'Username'       => 'Nom d\'utilisateur',
+        'emailAddress'       => 'Adresse e-mail',
+        'Password'       => 'Mot de passe',
+        'confirmPassword'       => 'Confirmer le mot de passe',
+        'Register'       => 'S\'inscrire',
+        'accountExist'       => 'Vous avez déjà un compte ? Connectez-vous ici',
     ],
 
     'Home' => [
