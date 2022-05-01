@@ -93,6 +93,16 @@ return [
             'Subtitle'       => 'Les prix exorbitants et incompréhensibles, trop pour nous !',
             'Title'       => 'Nos prix sont adaptés à vos besoins.',
             'Description'       => 'Pas de frais cachés, pas de TVA et une transparence quotidienne 💸',
+            'trialMessage'       => 'Vous êtes actuellement en abonnement d\'essai. Sélectionnez une formule ci-dessous pour la mettre à niveau.',
+            'switchButton'       => 'Switcher',
+            'selectButton'       => 'Sélectionner un plan',
+            'sandboxMode'       => 'Mode Test',
+            'sandboxMessage'       => 'L\'application de facturation est en mode sandbox, ce qui signifie que vous pouvez tester le processus de paiement en utilisant les informations d\'identification suivantes :',
+            'creditCard'       => 'Numéro de la carte de crédit :',
+            'expirationDate'       => 'Date d\'expiration :',
+            'securityCode'       => 'Code de sécurité :',
+            'anyDate'       => 'Toute date ultérieure',
+            'anyDigits'       => '3 chiffres au choix',
         ],
 
         'Testimonials' => [

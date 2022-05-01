@@ -93,6 +93,16 @@ return [
             'Subtitle'       => 'Prezzi esorbitanti e incomprensibili, troppo per noi!',
             'Title'       => 'I nostri prezzi sono adattati alle vostre esigenze.',
             'Description'       => 'Nessun costo nascosto, nessuna IVA e trasparenza quotidiana 💸',
+            'trialMessage'       => 'Sei attualmente su un abbonamento di prova. Seleziona un piano qui sotto per fare l\'upgrade.',
+            'switchButton'       => 'Switch',
+            'selectButton'       => 'Scegliere un piano',
+            'sandboxMode'       => 'Modalità di test',
+            'sandboxMessage'       => 'L\'applicazione di fatturazione è in modalità sandbox, il che significa che è possibile testare il processo di checkout utilizzando le seguenti credenziali:',
+            'creditCard'       => 'Numero di carta di credito:',
+            'expirationDate'       => 'Data di scadenza:',
+            'securityCode'       => 'Codice di sicurezza:',
+            'anyDate'       => 'Qualsiasi data futura',
+            'anyDigits'       => 'Qualsiasi 3 cifre',
         ],
 
         'Testimonials' => [

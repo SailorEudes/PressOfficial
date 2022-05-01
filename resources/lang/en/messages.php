@@ -95,6 +95,27 @@ return [
             'Subtitle'       => 'The exorbitant and incomprehensible prices are garbage !',
             'Title'       => 'Our prices are adapted to your needs.',
             'Description'       => 'No hidden fees, no VAT, and daily transparency 💸',
+            'trialMessage'       => 'You are currently on a trial subscription. Select a plan below to upgrade.',
+            'switchButton'       => 'Switch Plans',
+            'selectButton'       => 'Select a Plan',
+            'sandboxMode'       => 'Sandbox Mode',
+            'sandboxMessage'       => 'Application billing is in sandbox mode, which means you can test the checkout process using the following credentials:',
+            'creditCard'       => 'Credit Card Number:',
+            'expirationDate'       => 'Expiration Date:',
+            'securityCode'       => 'Security Code:',
+            'anyDate'       => 'Any future date',
+            'anyDigits'       => 'Any 3 digits',
+
+            /*'You' => [
+                'Subtitle'       => 'The exorbitant and incomprehensible prices are garbage !',
+                'Title'       => 'Our prices are adapted to your needs.',
+                'Description'       => 'No hidden fees, no VAT, and daily transparency 💸',
+            ],
+            'We' => [
+                'Subtitle'       => 'The exorbitant and incomprehensible prices are garbage !',
+                'Title'       => 'Our prices are adapted to your needs.',
+                'Description'       => 'No hidden fees, no VAT, and daily transparency 💸',
+            ],*/
         ],
 
         'Newsletters' => [

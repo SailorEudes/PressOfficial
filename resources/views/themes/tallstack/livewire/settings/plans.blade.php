@@ -11,11 +11,11 @@
     {{-- If we are not on the homepage we show a message at the top of pricing --}}
     @if( $settingsPage )
     @if( auth()->user() && auth()->user()->onTrial() )
-    <p class="px-6 py-3 text-sm text-red-500 bg-red-100">You are currently on a trial subscription. Select a plan below to upgrade.</p>
+    <p class="px-6 py-3 text-sm text-red-500 bg-red-100">{{ __('messages.Home.Pricing.trialMessage') }}</p>
     @elseif(auth()->user() && auth()->user()->subscribed('main'))
-    <h5 class="px-6 py-5 text-sm font-bold text-gray-500 bg-gray-100 border-t border-b border-gray-150">Switch Plans</h5>
+    <h5 class="px-6 py-5 text-sm font-bold text-gray-500 bg-gray-100 border-t border-b border-gray-150">{{ __('messages.Home.Pricing.switchButton') }}</h5>
     @else
-    <h5 class="px-6 py-5 text-sm font-bold text-gray-500 bg-gray-100 border-t border-b border-gray-150">Select a Plan</h5>
+    <h5 class="px-6 py-5 text-sm font-bold text-gray-500 bg-gray-100 border-t border-b border-gray-150">{{ __('messages.Home.Pricing.selectButton') }}</h5>
     @endif
     @endif
 
@@ -28,18 +28,18 @@
                     <path fill-rule="evenodd" d="M18 9H2v5a2 2 0 002 2h12a2 2 0 002-2V9zM4 13a1 1 0 011-1h1a1 1 0 110 2H5a1 1 0 01-1-1zm5-1a1 1 0 100 2h1a1 1 0 100-2H9z" clip-rule="evenodd"></path>
                 </svg>
                 <div class="relative">
-                    <h2 class="text-base font-bold text-white">Sandbox Mode</h2>
-                    <p class="text-sm text-white">Application billing is in sandbox mode, which means you can test the checkout process using the following credentials:</p>
+                    <h2 class="text-base font-bold text-white">{{ __('messages.Home.Pricing.sandboxMode') }}</h2>
+                    <p class="text-sm text-white">{{ __('messages.Home.Pricing.sandboxMessage') }}</p>
                 </div>
             </div>
             <div class="pt-2 text-sm font-bold text-white">
-                Credit Card Number: <span class="ml-2 font-mono bg-clip-text bg-gradient-to-r from-yellow-400 via-red-400 to-purple-500 text-transparent">4242 4242 4242 4242</span>
+                {{ __('messages.Home.Pricing.creditCard') }} <span class="ml-2 font-mono bg-clip-text bg-gradient-to-r from-yellow-400 via-red-400 to-purple-500 text-transparent">4242 4242 4242 4242</span>
             </div>
             <div class="pt-2 text-sm font-bold text-white">
-                Expiration Date: <span class="ml-2 font-mono bg-clip-text bg-gradient-to-r from-yellow-400 via-red-400 to-purple-500 text-transparent">Any future date</span>
+                {{ __('messages.Home.Pricing.expirationDate') }} <span class="ml-2 font-mono bg-clip-text bg-gradient-to-r from-yellow-400 via-red-400 to-purple-500 text-transparent">{{ __('messages.Home.Pricing.anyDate') }}</span>
             </div>
             <div class="pt-2 text-sm font-bold text-white">
-                Security Code: <span class="ml-2 font-mono bg-clip-text bg-gradient-to-r from-yellow-400 via-red-400 to-purple-500 text-transparent">Any 3 digits</span>
+                {{ __('messages.Home.Pricing.securityCodes') }} <span class="ml-2 font-mono bg-clip-text bg-gradient-to-r from-yellow-400 via-red-400 to-purple-500 text-transparent">{{ __('messages.Home.Pricing.anyDigits') }}</span>
             </div>
         </div>
     </div>
@@ -187,6 +187,11 @@
                     </span>
                 </p>
                 <div class="mt-6">
+
+                    <a href="mailto:contact@foxpress.fr?subject=I need more information about the '{{ $plan->name }} manage' plan's" class="inline-flex items-center justify-center w-full px-4 py-4 text-base font-semibold text-white transition duration-150 ease-in-out @if($plan->default){{ ' bg-gradient-to-r from-wave-600 to-indigo-500 hover:from-wave-500 hover:to-indigo-400' }}@else{{ 'bg-gray-800 hover:bg-gray-700 active:bg-gray-900 focus:border-gray-900 focus:shadow-outline-gray' }}@endif border border-transparent cursor-pointer focus:outline-none disabled:opacity-25">
+                        More information
+                    </a>
+                    <!--
                     <div class="rounded-md shadow">
                         @subscribed($plan->slug)
                         <div class="inline-flex items-center justify-center w-full px-4 py-4 text-base font-semibold transition duration-150 ease-in-out bg-gray-200 border border-transparent cursor-default text-gray-600 focus:outline-none disabled:opacity-25" disabled>
@@ -202,14 +207,14 @@
                             Get Started
                         </div>
                         @endsubscriber
-                        @endsubscribed
-                    </div>
+                        @endsubscribed-->
                 </div>
             </div>
         </div>
-
     </div>
-    @endforeach
 
-    @include('theme::partials.switch-plans-modal')
+</div>
+@endforeach
+
+@include('theme::partials.switch-plans-modal')
 </div>
