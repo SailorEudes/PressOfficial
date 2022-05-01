@@ -60,7 +60,7 @@
                 <div class="mt-8">
                     <div class="flex items-center">
                         <h4 class="flex-shrink-0 pr-4 bg-white dark:bg-gray-800 text-sm leading-5 tracking-wider font-semibold uppercase text-indigo-600">
-                            What's included
+                            {{ __('messages.Home.Pricing.whatsInclude') }}
                         </h4>
                         <div class="flex-1 border-t-2 border-gray-200">
                         </div>
@@ -84,7 +84,7 @@
                 <div class="mt-8">
                     <div class="flex items-center">
                         <h4 class="flex-shrink-0 pr-4 bg-white text-sm dark:bg-gray-800 leading-5 tracking-wider font-semibold uppercase text-indigo-600">
-                            &amp; What'not
+                            &amp; {{ __('messages.Home.Pricing.whatsNot') }}
                         </h4>
                     </div>
                     <ul class="mt-8 lg:grid lg:grid-cols-2 lg:col-gap-8 lg:row-gap-5">

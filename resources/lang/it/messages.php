@@ -103,6 +103,9 @@ return [
             'securityCode'       => 'Codice di sicurezza:',
             'anyDate'       => 'Qualsiasi data futura',
             'anyDigits'       => 'Qualsiasi 3 cifre',
+            'whatsInclude'       => 'Cosa è incluso',
+            'whatsNot'       => 'Cosa non è',
+
         ],
 
         'Testimonials' => [

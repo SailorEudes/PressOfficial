@@ -105,6 +105,8 @@ return [
             'securityCode'       => 'Security Code:',
             'anyDate'       => 'Any future date',
             'anyDigits'       => 'Any 3 digits',
+            'whatsInclude'       => 'What\'s included',
+            'whatsNot'       => 'What\'s not',
 
             /*'You' => [
                 'Subtitle'       => 'The exorbitant and incomprehensible prices are garbage !',
