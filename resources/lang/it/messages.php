@@ -105,6 +105,17 @@ return [
             'anyDigits'       => 'Qualsiasi 3 cifre',
             'whatsInclude'       => 'Cosa è incluso',
             'whatsNot'       => 'Cosa non è',
+            'Only'       => 'Solo',
+
+            'kickedFeatures' => [
+                'Promotions'       => 'Promozioni Foxshop durante tutto l\'anno',
+                'monthlyMaintenance'       => 'Manutenzione mensile',
+                'customFeatures'       => 'Fino a 2 funzioni personalizzate',
+                'unlimitedAccess'       => 'Accesso illimitato ai componenti premium',
+                'sharedHosting'       => 'Hosting condiviso',
+                'dedicatedDeveloper'       => 'Sviluppatore dedicato',
+                'stayCoolDude'       => 'Potremmo scrivere un\'intera lista di ciò che non hai, ma purtroppo, con questa offerta hai tutto, quindi cosa fare?',
+            ],
 
         ],
 

@@ -107,17 +107,19 @@ return [
             'anyDigits'       => 'Any 3 digits',
             'whatsInclude'       => 'What\'s included',
             'whatsNot'       => 'What\'s not',
+            'Only'       => 'Only',
 
-            /*'You' => [
-                'Subtitle'       => 'The exorbitant and incomprehensible prices are garbage !',
-                'Title'       => 'Our prices are adapted to your needs.',
-                'Description'       => 'No hidden fees, no VAT, and daily transparency 💸',
+            'kickedFeatures' => [
+                'Promotions'       => 'Promotions on Foxshop throughout the year',
+                'monthlyMaintenance'       => 'Monthly maintenance',
+                'customFeatures'       => 'Up to 2 custom features',
+                'unlimitedAccess'       => 'Unlimited access to premium components',
+                'sharedHosting'       => 'Shared hosting',
+                'dedicatedDeveloper'       => 'Dedicated developer',
+                'stayCoolDude'       => 'We could write you a whole list of what you don\'t have dude, but unfortunately, you have everything, so what to do?',
             ],
-            'We' => [
-                'Subtitle'       => 'The exorbitant and incomprehensible prices are garbage !',
-                'Title'       => 'Our prices are adapted to your needs.',
-                'Description'       => 'No hidden fees, no VAT, and daily transparency 💸',
-            ],*/
+
+
         ],
 
         'Newsletters' => [

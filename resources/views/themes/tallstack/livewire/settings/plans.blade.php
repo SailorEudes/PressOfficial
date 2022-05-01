@@ -39,7 +39,7 @@
                 {{ __('messages.Home.Pricing.expirationDate') }} <span class="ml-2 font-mono bg-clip-text bg-gradient-to-r from-yellow-400 via-red-400 to-purple-500 text-transparent">{{ __('messages.Home.Pricing.anyDate') }}</span>
             </div>
             <div class="pt-2 text-sm font-bold text-white">
-                {{ __('messages.Home.Pricing.securityCodes') }} <span class="ml-2 font-mono bg-clip-text bg-gradient-to-r from-yellow-400 via-red-400 to-purple-500 text-transparent">{{ __('messages.Home.Pricing.anyDigits') }}</span>
+                {{ __('messages.Home.Pricing.securityCode') }} <span class="ml-2 font-mono bg-clip-text bg-gradient-to-r from-yellow-400 via-red-400 to-purple-500 text-transparent">{{ __('messages.Home.Pricing.anyDigits') }}</span>
             </div>
         </div>
     </div>
@@ -98,7 +98,7 @@
                                 </svg>
                             </div>
                             <p class="ml-3 text-sm leading-5 text-gray-700 dark:text-gray-200">
-                                Promotions on Foxshop throughout the year
+                                {{ __('messages.Home.Pricing.kickedFeatures.Promotions') }}
                             </p>
                         </li>
                         <li class="flex items-start lg:col-span-1">
@@ -109,7 +109,7 @@
                                 </svg>
                             </div>
                             <p class="ml-3 text-sm leading-5 text-gray-700 dark:text-gray-200">
-                                Monthly maintenance
+                                {{ __('messages.Home.Pricing.kickedFeatures.monthlyMaintenance') }}
                             </p>
                         </li>
                         <li class="flex items-start lg:col-span-1">
@@ -120,7 +120,7 @@
                                 </svg>
                             </div>
                             <p class="ml-3 text-sm leading-5 text-gray-700 dark:text-gray-200">
-                                Up to 2 custom features
+                                {{ __('messages.Home.Pricing.kickedFeatures.customFeatures') }}
                             </p>
                         </li>
                         <li class="flex items-start lg:col-span-1">
@@ -131,7 +131,7 @@
                                 </svg>
                             </div>
                             <p class="ml-3 text-sm leading-5 text-gray-700 dark:text-gray-200">
-                                Unlimited access to premium components
+                                {{ __('messages.Home.Pricing.kickedFeatures.unlimitedAccess') }}
                             </p>
                         </li>
                         <li class="flex items-start lg:col-span-1">
@@ -142,7 +142,7 @@
                                 </svg>
                             </div>
                             <p class="ml-3 text-sm leading-5 text-gray-700 dark:text-gray-200">
-                                Shared hosting
+                                {{ __('messages.Home.Pricing.kickedFeatures.sharedHosting') }}
                             </p>
                         </li>
                         <li class="flex items-start lg:col-span-1">
@@ -153,7 +153,7 @@
                                 </svg>
                             </div>
                             <p class="ml-3 text-sm leading-5 text-gray-700 dark:text-gray-200">
-                                Dedicated developer
+                                {{ __('messages.Home.Pricing.kickedFeatures.dedicatedDeveloper') }}
                             </p>
                         </li>
                         @else
@@ -165,7 +165,7 @@
                                 </svg>
                             </div>
                             <p class="ml-3 text-sm leading-5 text-gray-700 dark:text-gray-200">
-                                Don't worry, with this offer, the "what's not" doesn't exist!
+                                {{ __('messages.Home.Pricing.kickedFeatures.stayCoolDude') }}
                             </p>
                         </li>
                         @endif
@@ -174,7 +174,7 @@
             </div>
             <div class="py-8 px-6 text-center bg-gray-50 dark:bg-gray-700 lg:flex-shrink-0 lg:flex lg:flex-col lg:justify-center lg:p-12">
                 <p class="text-lg leading-6 font-bold text-gray-900 dark:text-white">
-                    Only
+                    {{ __('messages.Home.Pricing.Only') }}
                 </p>
                 <div class="mt-4 flex items-center justify-center text-5xl leading-none font-extrabold bg-clip-text bg-gradient-to-r from-yellow-400 via-red-400 to-purple-500 text-transparent">
                     <span>
