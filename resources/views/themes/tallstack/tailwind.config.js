@@ -1,10 +1,12 @@
 module.exports = {
+    darkMode: 'class',
     purge: [
         './**/*.php',
         './*.php',
         './assets/**/*.scss',
         './assets/**/*.js',
-      ],
+    ],
+   
     theme: {
         extend: {
             rotate: {
@@ -16,7 +18,7 @@ module.exports = {
                 '3': '3deg',
             },
             borderRadius: {
-                'xl' : '0.8rem',
+                'xl': '0.8rem',
                 'xxl': '1rem',
             },
             height: {
@@ -58,7 +60,7 @@ module.exports = {
     },
     variants: {
         borderColor: ['responsive', 'hover', 'focus', 'group-hover'],
-        backgroundColor: ['hover', 'group-hover','responsive'],
+        backgroundColor: ['hover', 'group-hover', 'responsive'],
         textColor: ['group-hover', 'hover'],
         border: ['group-hover'],
         transform: ['group-hover'],

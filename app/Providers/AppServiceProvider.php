@@ -18,6 +18,18 @@ class AppServiceProvider extends ServiceProvider
             $this->app['request']->server->set('HTTPS', true);
         }
         $this->setSchemaDefaultLength();
+
+        view()->composer('layouts.master', function ($view) {
+
+            $theme = \Cookie::get('theme');
+
+            if ($theme != 'dark-theme' && $theme != 'light') {
+
+                $theme = 'light';
+            }
+
+            $view->with('theme', $theme);
+        });
     }
 
     /**
@@ -27,14 +39,13 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-
     }
 
     private function setSchemaDefaultLength(): void
     {
         try {
             Schema::defaultStringLength(191);
+        } catch (\Exception $exception) {
         }
-        catch (\Exception $exception){}
     }
 }

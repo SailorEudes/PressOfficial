@@ -14,7 +14,7 @@
     }
 </style>
 
-<section id="welcome" class="w-full h-auto overflow-hidden relative bg-white">
+<section id="welcome" class="w-full h-auto overflow-hidden relative bg-white dark:bg-slate-900">
     <div class="max-w-7xl mx-auto pt-10 md:pt-20 flex items-center lg:px-0 px-10 justify-center flex-col">
         <p class="text-gray-800 uppercase text-xl sm:text-1xl lg:text-2xl font-medium max-w-xl text-center">
             {!! __('messages.Home.Welcome.Title') !!}
@@ -122,7 +122,7 @@
     </div>
 </section>
 
-<section id="features" class="py-12 sm:py-16 bg-white">
+<section id="features" class="py-12 sm:py-16 bg-white dark:bg-slate-900">
     <div class="max-w-7xl px-10 mx-auto sm:text-center">
         <p class="text-gray-800 font-medium uppercase">
             {!! __('messages.Home.Features.Subtitle') !!}
@@ -230,7 +230,7 @@
 <div id="pricing" class="relative">
     <img class="absolute top-0 left-0 hidden mt-12 lg:block" src="{{ env('APP_URL') }}/fox/img/pricing-bg-left.png">
     <img class="absolute top-0 right-0 hidden mt-10 lg:block" src="{{ env('APP_URL') }}/fox/img/pricing-bg-right.png">
-    <div class="relative px-8 pb-8 mx-auto max-w-7xl xl:px-5 py-12 bg-white md:py-20">
+    <div class="relative px-8 pb-8 mx-auto max-w-7xl xl:px-5 py-12 bg-white dark:bg-slate-900 md:py-20">
         <div class="max-w-4xl px-10 mx-auto text-left md:text-center pb-14 md:px-0">
             <p class="text-gray-800 font-medium uppercase">
                 {!! __('messages.Home.Pricing.Subtitle') !!}
@@ -294,5 +294,10 @@
     </div>
     </div>
 </section>
+
+
+<!-- Section 1 -->
+@livewire('question-list')
+
 
 @endsection
