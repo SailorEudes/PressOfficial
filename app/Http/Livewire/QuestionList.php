@@ -8,6 +8,8 @@ use App\Question;
 class QuestionList extends Component
 {
 
+    protected $showquestions = ['question', 'response'];   
+
     public function render()
     {
         return view('livewire.question-list', [
