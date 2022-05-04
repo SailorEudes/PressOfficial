@@ -1,6 +1,6 @@
 <div>
 
-    <section class="py-16 bg-white dark:bg-slate-900 md:py-20 lg:py-24">
+    <section id="faq" class="py-16 bg-white dark:bg-slate-900 md:py-20 lg:py-24">
         <div class="max-w-5xl px-12 mx-auto xl:px-0">
 
             <div class="max-w-4xl px-10 mx-auto text-left md:text-center pb-14 md:px-0">
@@ -20,7 +20,7 @@
                 <!-- Question 1 -->
                 @foreach ($showquestions as $showquestion)
                 <div x-data="{ show: false }" class="relative overflow-hidden border-b border-gray-100 select-none">
-                    <h4 @click="show=!show" class="flex items-center justify-between px-2 text-lg font-medium text-gray-700 cursor-pointer sm:text-xl md:text-2xl py-7 hover:text-gray-900">
+                    <h4 @click="show=!show" class="flex items-center justify-between px-2 text-base sm:text-xl lg:text-2xl text-gray-700 cursor-pointer py-7 hover:text-gray-900">
                         <span>{{$showquestion->question}}</span>
                         <svg class="w-6 h-6 mr-2 transition-all duration-200 ease-out transform rotate-0" :class="{ '-rotate-180' : show }" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>

@@ -1,6 +1,6 @@
 <?php
 return [
-    'footerCoolText'       => '© <b>' . setting('site.title', 'Foxpress') . '</b> a été créé le ' . date('Y') . ' depuis 🗼, grâce à une quantité astronomique de ☕ et une équipe de 🦊 fous',
+    'footerCoolText'       => '' . setting('site.title', 'Foxpress') . ' a été créé le ' . date('Y') . ' depuis 🗼, grâce à une quantité astronomique de ☕ et une équipe de 🦊 fous',
     'Menus' => [
         'Welcome'       => 'Bienvenue',
         'Techs'       => 'Techs',
@@ -25,6 +25,7 @@ return [
         'signUp'       => 'Inscription',
         'existingCustomer'       => 'Client existant ?',
         'GTS'       => 'CGV',
+        'FAQ'       => 'FAQ',
     ],
 
     'Announcements' => [

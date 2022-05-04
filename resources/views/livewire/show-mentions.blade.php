@@ -3,13 +3,6 @@
 
 @section('content')
 
-<div>
-    @foreach($questions as $question)
-    {{ $question->question }}
-    {{ $question->response }}
-    @endforeach
-</div>
-
 
 <!--
   This example requires Tailwind CSS v2.0+ 
